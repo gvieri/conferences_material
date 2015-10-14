@@ -7,9 +7,9 @@ run apt-get -y update
 run apt-get -y upgrade
 
 RUN apt-get update && apt-get install -y iceweasel flashplugin-nonfree
-RUN apt-get install -y tcpdump wget
+RUN apt-get install -y tcpdump wget git
 
-RUN wget https://raw.githubusercontent.com/gvieri/conferences_material/ws2015/doall.sh 
+RUN wget https://raw.githubusercontent.com/gvieri/conferences_material/master/ws_2015/doall.sh
 
 ENV DISPLAY :0
 
