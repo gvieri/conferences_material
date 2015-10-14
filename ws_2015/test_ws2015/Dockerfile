@@ -13,5 +13,5 @@ RUN wget https://raw.githubusercontent.com/gvieri/conferences_material/master/ws
 
 ENV DISPLAY :0
 
-CMQ doall.sh
+CMD doall.sh
 
